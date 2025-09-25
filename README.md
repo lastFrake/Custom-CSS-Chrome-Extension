@@ -52,7 +52,7 @@ This example shows how to customize the Trovo.live streaming platform interface 
 .slide-right-panel .medal-list .medal-info:not([data-resource-name="moderator"]),
 .slide-right-panel *[data-type="5007"],
 .slide-right-panel .message.gift-message,
-.slide-right-panel .message .content-wrap>span:nth-of-type(1),
+.slide-right-panel .message:not(.message-sub) .content-wrap>span:nth-of-type(1),
 .popout-container .chat-header,
 .popout-container .gift-rank-header,
 .popout-container .welcome-text.history,
@@ -60,7 +60,7 @@ This example shows how to customize the Trovo.live streaming platform interface 
 .popout-container .medal-list .medal-info:not([data-resource-name="moderator"]),
 .popout-container *[data-type="5007"],
 .popout-container .message.gift-message,
-.popout-container .message .content-wrap>span:nth-of-type(1),
+.popout-container .message:not(.message-sub) .content-wrap>span:nth-of-type(1),
 .pendant-overlay {
   display: none !important;
 }
