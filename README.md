@@ -1,5 +1,5 @@
 <h1>
-  <img src="assets/icon.png" alt="icon" width="48" height="48" style="vertical-align:middle;margin-right:8px">
+  <img src="src/assets/icon.png" alt="icon" width="48" height="48" style="vertical-align:middle;margin-right:8px">
   Custom CSS Chrome Extension
 </h1>
 

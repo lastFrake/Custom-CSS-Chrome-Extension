@@ -4,9 +4,9 @@
     "version": "1.0",
     "description": "Inject custom CSS on open site",
     "icons": {
-        "16": "assets/icon.png",
-        "48": "assets/icon.png",
-        "128": "assets/icon.png"
+        "16": "src/assets/icon.png",
+        "48": "src/assets/icon.png",
+        "128": "src/assets/icon.png"
     },
     "permissions": [
         "storage"
@@ -17,11 +17,11 @@
                 "<all_urls>"
             ],
             "js": [
-                "scripts/content.js"
+                "src/scripts/content.js"
             ]
         }
     ],
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "src/popup.html"
     }
 }
