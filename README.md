@@ -49,32 +49,36 @@ This example shows how to customize the Trovo.live streaming platform interface 
 .slide-right-panel .gift-rank-header,
 .slide-right-panel .welcome-text.history,
 .slide-right-panel .pin-top,
+.slide-right-panel .medal-list .medal-info:not([data-resource-name="moderator"]),
+.slide-right-panel *[data-type="5007"],
+.slide-right-panel .message.gift-message,
+.slide-right-panel .message .content-wrap>span:nth-of-type(1),
 .popout-container .chat-header,
 .popout-container .gift-rank-header,
 .popout-container .welcome-text.history,
 .popout-container .pin-top,
-.medal-list .medal-info:not([data-resource-name="moderator"]),
-*[data-type="5007"],
-.message.gift-message,
-.message .content-wrap>span:nth-of-type(1),
+.popout-container .medal-list .medal-info:not([data-resource-name="moderator"]),
+.popout-container *[data-type="5007"],
+.popout-container .message.gift-message,
+.popout-container .message .content-wrap>span:nth-of-type(1),
 .pendant-overlay {
-	display: none !important;
+  display: none !important;
 }
 
 .slide-right-panel .chat-list,
 .popout-container .chat-list {
-	padding-top: 10px !important;
+  padding-top: 10px !important;
 }
 
 .slide-right-panel {
-	width: 450px !important;
+  width: 450px !important;
 }
 
 .message .content-wrap .content {
-	display: block;
-	width: 100%;
-	clear: both;
-	padding-bottom: 6px;
+  display: block;
+  width: 100%;
+  clear: both;
+  padding-bottom: 6px;
 }
 ```
 
