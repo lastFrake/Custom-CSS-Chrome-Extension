@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Custom CSS Injector</title>
+    <link rel="stylesheet" href="styles/codemirror.css">
+    <style>
+        body {
+            margin: 17px;
+        }
+
+        .CodeMirror {
+            font-size: 14px;
+        }
+
+        #current-domain {
+            font-weight: bold;
+            margin-left: 6px;
+        }
+
+        #status {
+            margin-left: 12px;
+            color: #2a7;
+            /* greenish */
+            font-size: 0.95em;
+        }
+
+        /* keep editor sizing */
+    </style>
+</head>
+
+<body>
+    <h3>Configure Custom CSS</h3>
+    <label>Domain:<span id="current-domain">(loading...)</span></label>
+    <span id="status" aria-live="polite"></span>
+    <br><br>
+
+    <label>Custom CSS:</label><br>
+    <div id="css-editor" style="width: 500px; height: 300px; border: 1px solid #ccc;"></div><br>
+    <button id="save">Save</button>
+    <script src="scripts/codemirror.js"></script>
+    <script src="scripts/css.js"></script>
+    <script src="scripts/popup.js"></script>
+</body>
+
+</html>
